@@ -1,0 +1,7 @@
+provider:
+  mailgun:
+    domain: <PLACEHOLDER>
+    apikey: <PLACEHOLDER>
+    baseurl: https://api.mailgun.net/v3/${provider.mailgun.domain}
+    sender: Mailgun Sender <mailgun@${provider.mailgun.domain}>
+

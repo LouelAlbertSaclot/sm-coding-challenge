@@ -1,0 +1,8 @@
+provider:
+  sendgrid:
+    domain: <PLACEHOLDER>
+    apikey: <PLACEHOLDER>
+    baseurl: https://api.sendgrid.com/v3/mail
+    sender:
+      name: SendGrid Sender
+      email: <PLACEHOLDER>@${provider.sendgrid.domain}

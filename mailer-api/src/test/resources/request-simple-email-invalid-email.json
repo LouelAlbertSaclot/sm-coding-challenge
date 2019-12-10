@@ -1,0 +1,7 @@
+{
+  "message": "Testing some mailing awesomeness!",
+  "subject": "Hello World",
+  "recipients": [ "sample@exam@@#ple.com" ],
+  "copied": [ " " ],
+  "blindCopied": [ "sample.blind.copied@example.com" ]
+}

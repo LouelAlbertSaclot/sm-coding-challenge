@@ -1,0 +1,13 @@
+provider:
+  mailgun:
+    domain: ${MAILGUN_DOMAIN}
+    apikey: ${MAILGUN_API_KEY}
+    baseurl: https://api.mailgun.net/v3/${provider.mailgun.domain}
+    sender: Mailgun Sender <mailgun@${provider.mailgun.domain}>
+  sendgrid:
+    apikey: ${SENDGRID_API_KEY}
+    baseurl: https://api.sendgrid.com/v3/mail
+    sender:
+      name: SendGrid Sender
+      email: ${SENDGRID_DEFAULT_SENDER}
+
