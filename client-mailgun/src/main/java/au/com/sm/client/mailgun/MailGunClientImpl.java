@@ -64,4 +64,9 @@ public class MailGunClientImpl implements MailGunClient {
         HttpEntity<MultiValueMap<String, String>> payload = new HttpEntity<>(form, properties.getHeaders());
         return mailGunRestTemplate.postForEntity(properties.getUri(MailGunClient.MESSAGES), payload, SimpleEmailResponse.class);
     }
+
+    @Override
+    public ResponseEntity<SimpleEmailResponse> sendHTMLEmail() {
+        throw new UnsupportedOperationException();
+    }
 }

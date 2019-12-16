@@ -7,4 +7,6 @@ import org.springframework.http.ResponseEntity;
 public interface Client {
 
     ResponseEntity<SimpleEmailResponse> sendPlainTextEmail(final SimpleEmailRequest request);
+
+    ResponseEntity<SimpleEmailResponse> sendHTMLEmail();
 }

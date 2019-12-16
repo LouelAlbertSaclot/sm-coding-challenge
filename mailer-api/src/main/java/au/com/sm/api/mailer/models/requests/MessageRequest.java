@@ -21,13 +21,13 @@ public class MessageRequest {
     private String subject;
     @JsonProperty(value = "recipients", required = true)
     private Set<@Email(message = "{message.email.invalid}")
-        @NotBlank(message = "{message.email.blank}") String> recipients;
+    @NotBlank(message = "{message.email.blank}") String> recipients;
     @JsonProperty(value = "copied")
     private Set<@Email(message = "{message.email.invalid}")
-        @NotBlank(message = "{message.email.blank}") String> copied = new HashSet<>();
+    @NotBlank(message = "{message.email.blank}") String> copied = new HashSet<>();
     @JsonProperty(value = "blindCopied")
     private Set<@Email(message = "{message.email.invalid}")
-        @NotBlank(message = "{message.email.blank}") String> blindCopied = new HashSet<>();;
+    @NotBlank(message = "{message.email.blank}") String> blindCopied = new HashSet<>();;
 
 
     public String getMessage() {

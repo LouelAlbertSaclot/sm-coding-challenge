@@ -45,4 +45,9 @@ public class SendGridClientImpl implements SendGridClient {
 
         return ResponseEntity.ok(new SimpleEmailResponse("success"));
     }
+
+    @Override
+    public ResponseEntity<SimpleEmailResponse> sendHTMLEmail() {
+        throw new UnsupportedOperationException();
+    }
 }
