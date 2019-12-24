@@ -38,8 +38,8 @@ Some Design Patterns used:
 * Facade Pattern
 
 ### Status
-* Deployed in HEROKU
-* Documentation: [Swagger URL](https://simple-emailer-app.herokuapp.com/swagger-ui.html)
+* Deployed in HEROKU - DELETED
+* Documentation: NOT AVAILABLE
 
 ### Requirements
 * [JDK 8 or Higher](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
